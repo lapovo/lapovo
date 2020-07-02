@@ -1,0 +1,147 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    background: #B5CA8D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 75rem;
+}
+
+main, section, aside, footer {
+    display: block;
+    margin: 0;
+    padding: 3rem 1rem;
+    color: white;
+}
+
+main {
+    background: #B5CA8D;
+    color: #373F47;
+}
+
+.highlight {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    background: #A5402D;
+    color: white;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, .2);
+}
+
+@media screen and (min-width: 640px) {
+    .flex-container {
+        display: flex;
+    }
+}
+
+.content {
+    flex: 1;
+    background: #8BB174;
+    color: #373F47;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, .2);
+    padding: 1.5rem 2rem;
+    margin: 1rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    background: #B5CA8D;
+    text-align: center;
+    color: #373F47;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid #373F47;
+}
+
+.header {
+    background: white;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, .2);
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav a {
+    font-size: 0.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #343534;
+    text-decoration: none;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 960px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav ul {
+    margin: 1em 0 .5em;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em 1.5em;
+}
+
+@media (min-width: 960px) {
+    .header .container {
+        justify-content: space-between;
+    }
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.website a {
+    text-decoration: none;
+    color: #373F47;
+}

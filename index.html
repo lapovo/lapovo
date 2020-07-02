@@ -1,0 +1,66 @@
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lapovo Online</title>
+    <script src="assets/scripts.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="assets/favicon.ico" />
+</head>
+<body onload="getRestaurant()">
+
+<main>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <img class="logo" src="assets/logo.png" alt="Logo">
+            </h1>
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="#highlight">Fina klopa</a>
+                    </li>
+                    <li>
+                        <a href="#map">Mapa</a>
+                    </li>
+                    <li>
+                        <a href="#details">Info</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="highlight" class="highlight">
+        <h1>Fina klopa</h1>
+        <p id="restaurant"></p>
+    </section>
+
+    <div class="flex-container wrapper">
+        <section id="map" class="content">
+            <h1>Mapa</h1>
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27220.097705727607!2d21.072191821983296!3d44.18316347078531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47572a79536a87b5%3A0x4c00f7239700ae89!2z0JvQsNC_0L7QstC-LCDQodGA0LHQuNGY0LA!5e0!3m2!1ssr!2sgr!4v1593605616481!5m2!1ssr!2sgr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <h2 id="details">Info</h2>
+            <p>Region: <strong>Šumadija i zapadna Srbija</strong></p>
+            <p>Upravni okrug: <strong>Šumadijski</strong></p>
+            <p>Koordinate: <strong>44°11′00″, 21°06′00″</strong></p>
+            <p>Nadmorksa visina: <strong>105 m</strong></p>
+            <p>Populacija: <strong>7837</strong></p>
+            <p>Poštanski broj: <strong>34220</strong></p>
+            <p>Pozivni broj: <strong>034</strong></p>
+            <p>Registarska oznaka: <strong>KG</strong></p>
+            <p class="website">Oficijalni sajt: <strong><a href="http://www.lapovo.rs">www.lapovo.rs</a></strong></p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>©2020</p>
+    </footer>
+
+</main>
+
+</body>
+</html>
